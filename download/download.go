@@ -80,7 +80,7 @@ func download(path, dest string, firstAttempt bool) (root *vcs.RepoRoot, err err
 			return root, err
 		}
 	}
-	err = root.VCS.TagSync(fullLocalPath, "")
+	err = root.VCS.TagSync(fullLocalPath, "master")
 	if err != nil && firstAttempt {
 		// may have been rebased; we delete the directory, then try one more time:
 		log.Printf("Failed to update %q (%v), trying again...", root.Repo, err.Error())

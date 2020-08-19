@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/dgraph-io/badger"
+	"github.com/dgraph-io/badger/v2"
 )
 
 func migrate() error {
