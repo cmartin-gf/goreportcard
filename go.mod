@@ -1,4 +1,4 @@
-module github.com/gojp/goreportcard
+module github.com/cmartin-gf/goreportcard
 
 go 1.13
 
