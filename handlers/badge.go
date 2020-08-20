@@ -8,7 +8,7 @@ import (
 	"sync"
 
 	"github.com/dgraph-io/badger/v2"
-	"github.com/gojp/goreportcard/check"
+	"github.com/cmartin-gf/goreportcard/check"
 )
 
 func badgePath(grade check.Grade, style string) string {

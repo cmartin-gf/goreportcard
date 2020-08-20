@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/gojp/goreportcard/check"
+	"github.com/cmartin-gf/goreportcard/check"
 )
 
 var (

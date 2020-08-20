@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/dgraph-io/badger/v2"
-	"github.com/gojp/goreportcard/download"
+	"github.com/cmartin-gf/goreportcard/download"
 )
 
 const (
