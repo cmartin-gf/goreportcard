@@ -11,7 +11,6 @@ require (
 	github.com/dgraph-io/ristretto v0.0.3 // indirect
 	github.com/dgryski/go-farm v0.0.0-20200201041132-a6ae2369ad13 // indirect
 	github.com/dustin/go-humanize v1.0.0
-	github.com/cmartin-gf/goreportcard v0.0.0-20200415071653-59167b516f3f
 	github.com/kr/pretty v0.2.1 // indirect
 	github.com/prometheus/client_golang v1.7.1
 	github.com/prometheus/common v0.13.0 // indirect
